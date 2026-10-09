@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "job-hunter"
+version = "1.0.0"
+description = "Scan public job boards for the titles and locations you choose, and track them in a local dashboard."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+  "requests>=2.28",
+  "pyyaml>=6.0",
+]
+
+[project.scripts]
+job-hunter = "job_hunter:main"
+
+[tool.setuptools]
+py-modules = ["job_hunter"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+exclude = [".cache", ".venv", "reports"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501"]

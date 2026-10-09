@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#5b6b75"/></marker>
+    <style>
+      .box{fill:#f3f7f8;stroke:#c9d6dc;stroke-width:1.5}
+      .hot{fill:#e3f5f2;stroke:#2bb3a3;stroke-width:2}
+      .warm{fill:#fff3e0;stroke:#f0a54a;stroke-width:2}
+      .t{font-size:15px;fill:#1d2a30;font-weight:600;text-anchor:middle}
+      .s{font-size:12px;fill:#5b6b75;text-anchor:middle}
+      .l{stroke:#5b6b75;stroke-width:1.6;fill:none;marker-end:url(#a)}
+    </style>
+  </defs>
+  <rect width="960" height="400" fill="#ffffff"/>
+  <rect class="hot" x="20" y="150" width="170" height="90" rx="12"/>
+  <text class="t" x="105" y="188">Your search</text>
+  <text class="s" x="105" y="210">config.yaml or</text>
+  <text class="s" x="105" y="226">--title / --location</text>
+
+  <rect class="box" x="250" y="20" width="170" height="44" rx="10"/><text class="t" x="335" y="48">Greenhouse</text>
+  <rect class="box" x="250" y="76" width="170" height="44" rx="10"/><text class="t" x="335" y="104">Lever</text>
+  <rect class="box" x="250" y="132" width="170" height="44" rx="10"/><text class="t" x="335" y="160">Ashby</text>
+  <rect class="box" x="250" y="188" width="170" height="44" rx="10"/><text class="t" x="335" y="216">Workday</text>
+  <rect class="box" x="250" y="244" width="170" height="44" rx="10"/><text class="t" x="335" y="272">iCIMS</text>
+  <rect class="box" x="250" y="300" width="170" height="44" rx="10"/><text class="t" x="335" y="328">BambooHR</text>
+  <text class="s" x="335" y="372">public job-board APIs, scanned in parallel</text>
+
+  <rect class="hot" x="480" y="150" width="170" height="90" rx="12"/>
+  <text class="t" x="565" y="188">Match filter</text>
+  <text class="s" x="565" y="210">whole-word title +</text>
+  <text class="s" x="565" y="226">location phrases</text>
+
+  <rect class="box" x="720" y="60" width="200" height="70" rx="12"/>
+  <text class="t" x="820" y="92">.cache/jobs_state.json</text>
+  <text class="s" x="820" y="112">every job + your status</text>
+  <rect class="box" x="720" y="165" width="200" height="60" rx="12"/>
+  <text class="t" x="820" y="192">reports/DATE.csv</text>
+  <text class="s" x="820" y="210">new jobs only</text>
+  <rect class="warm" x="720" y="260" width="200" height="80" rx="12"/>
+  <text class="t" x="820" y="292">Local dashboard</text>
+  <text class="s" x="820" y="312">127.0.0.1:8765</text>
+  <text class="s" x="820" y="328">pending / seen / applied</text>
+
+  <path class="l" d="M190 195H245"/>
+  <path class="l" d="M420 42C455 42 455 180 478 190"/>
+  <path class="l" d="M420 98C450 98 460 185 478 192"/>
+  <path class="l" d="M420 154C450 154 460 190 478 194"/>
+  <path class="l" d="M420 210H478"/>
+  <path class="l" d="M420 266C450 266 460 205 478 200"/>
+  <path class="l" d="M420 322C455 322 455 215 478 204"/>
+  <path class="l" d="M650 180C685 170 690 110 718 100"/>
+  <path class="l" d="M650 195H718"/>
+  <path class="l" d="M820 130V150L820 152"/>
+  <path class="l" d="M820 225V258" stroke-dasharray="4 4"/>
+</svg>

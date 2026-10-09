@@ -1,0 +1,23 @@
+# Job Hunter search settings.
+# Copy this file to config.yaml (python3 job_hunter.py --init) and edit it.
+# Matching ignores capitalization and punctuation, and phrases match whole words.
+
+# Job titles you want. A job matches if its title contains ANY of these phrases.
+title_phrases:
+  - "Software Engineer"
+  - "Backend Engineer"
+  - "Python Developer"
+  - "Data Analyst"
+
+# Where you want to work. A job matches if its location contains ANY of these phrases.
+# Leave the list empty ([]) to match every location.
+location_phrases:
+  - "Remote"
+  - "New York"
+  - "Austin"
+
+# Companies missing from the auto-discovered lists. Format:
+#   - slug: "company-slug"
+#     platform: "greenhouse"   # greenhouse | lever | ashby | bamboohr | icims | workday
+# Workday slugs use the form company|wd#|site_id
+extra_companies: []
