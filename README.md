@@ -8,18 +8,6 @@
 
 Job Hunter reads the public job boards that most companies use (Greenhouse, Lever, Ashby, Workday, iCIMS and BambooHR), keeps only the roles that match **your** job titles and locations, remembers everything it has found, and gives you a small dashboard to work through the list. There is no account, no hosted service and no database. Everything stays on your computer.
 
-<p align="center">
-  <img src="docs/images/dashboard-dark.png" alt="Job Hunter dashboard in dark mode, showing a radar, rank, summary cards and a list of matching jobs" width="820">
-</p>
-
-<details>
-<summary>Light mode</summary>
-
-<img src="docs/images/dashboard-light.png" alt="Job Hunter dashboard in light mode" width="820">
-
-</details>
-
-> The jobs in these screenshots are made-up sample data.
 
 ## Features
 
